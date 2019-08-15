@@ -69,7 +69,7 @@ class Dog
       new_dog = self.create(name: name, breed: breed)
       new_dog
     else
-      new_dog = self.new(dog[0][0], dog[0][1], dog[0][2])
+      new_dog = self.new(id: dog[0][0], name: dog[0][1], breed: dog[0][2])
       new_dog
     end
     
