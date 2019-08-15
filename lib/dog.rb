@@ -73,7 +73,7 @@ class Dog
       new_dog
     end
     
-    #binding.pry
+    
   end
   
   
