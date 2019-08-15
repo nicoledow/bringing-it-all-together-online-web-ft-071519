@@ -50,3 +50,4 @@ class Dog
   
   
 end
+Dog.create("Stella", "lab")
