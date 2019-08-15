@@ -87,7 +87,7 @@ class Dog
   end
   
   def update
-    
+    sql = "UPDATE * FROM dogs WHERE id = ?, "
   end
   
   
