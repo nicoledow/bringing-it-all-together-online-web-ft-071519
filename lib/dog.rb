@@ -82,7 +82,7 @@ class Dog
           WHERE name = ?
           SQL
           
-    info = DB[:conn].execute(sql, name)
+    info = DB[:conn].execute(sql, name)[0]
     binding.pry
   end
   
