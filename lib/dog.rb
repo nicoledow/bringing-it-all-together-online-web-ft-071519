@@ -49,6 +49,10 @@ class Dog
     self.new(id: id, name: name, breed: breed)
   end
   
+  def self.find_by_id
+    #use sql to find if id exists in database
+    #if it does, grab this row as a var and pass it into self.new_from_db(row)
+  end
   
   
 end
