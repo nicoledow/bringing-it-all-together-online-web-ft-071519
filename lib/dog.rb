@@ -50,4 +50,3 @@ class Dog
   
   
 end
-Dog.create(name: "Stella", breed:"lab")
