@@ -61,7 +61,6 @@ class Dog
     if row
       self.new_from_db(row)
     end
-    binding.pry
   end
   
   
